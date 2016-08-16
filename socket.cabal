@@ -37,6 +37,7 @@ library
                      , System.Socket.Protocol.UDP
                      , System.Socket.Protocol.TCP
                      , System.Socket.Unsafe
+                     , Network.Transceiver
   other-modules:       System.Socket.Internal.Socket
                      , System.Socket.Internal.Exception
                      , System.Socket.Internal.Message
@@ -44,6 +45,7 @@ library
                      , System.Socket.Internal.Platform
   build-depends:       base >= 4.7 && < 5
                      , bytestring < 0.11
+                     , exceptions
   hs-source-dirs:      src
   build-tools:         hsc2hs
   default-language:    Haskell2010
